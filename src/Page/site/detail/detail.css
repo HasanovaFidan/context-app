@@ -1,0 +1,160 @@
+.imeg img{
+  max-width:100%;
+        background-size: contain;
+     
+        height: 460px;
+    
+    
+}
+.imeg {
+    width: 550px;
+   margin-bottom: 70px;
+    margin-left: 150px;
+}
+.flex{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+    gap: 30px;
+}
+.p{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    width: 300px;
+
+
+}
+.p p{
+    color: gray;
+    
+}
+.p h1{
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 20px;
+
+}
+.divv{
+display: flex;
+width: 120px;
+height: 35px;
+background-color: rgb(255, 255, 255);
+border: none;
+gap: 20px;
+text-align: center;
+border: 2px solid rgb(222, 222, 222);
+font-size: 20px;
+padding-right: 20px;
+
+}
+.divv button{
+    border: none;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-weight: lighter;
+    color: lightgray;
+
+}
+.heart{
+    font-size: 20px;
+ width: 45px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(162, 162, 162);
+    border: 2px solid lightgrey;
+  padding-top: 6px;
+  &:hover{
+    color: white;
+    background-color: orangered;
+    border: none;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+
+  }
+}
+h6{
+    font-size: 25px;
+    font-weight: lighter;
+    color: gray;
+    padding-left: 6px;
+}
+.bten button{
+    width: 220px;
+    height: 35px;
+    background-color: black;
+    border: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    &:hover{
+        color: white;
+        background-color: orangered;
+        border: none;
+    
+      }
+}
+.detail__div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 220px;
+    margin-top: 50px;
+
+}
+.detail__div p{
+font-size: 15px;
+}
+.detail__div :first-child{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.detail__div :nth-child(2){
+    color: gray;
+}
+
+.bos{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(141, 141, 141);
+}
+.card__kecidd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 80px;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+      }
+      .card__kecidd :first-child{
+        color: black;
+      }
+      .card__kecidd :nth-child(2){
+        &:hover{
+          color: black;
+          cursor: pointer;
+        
+        }
+      }
+      .card__kecidd :nth-child(3){
+        &:hover{
+          color: black;
+          cursor: pointer;
+        
+        }
+      }
